@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MOEPfx.jnlp">
+  <information>
+    <title>MOEPfx</title>
+    <vendor>Christian</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources os="Windows">
+    <jfx:javafx-runtime version="2.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MOEPfx.jar" size="1054255" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MOEPfx" />
+  <jfx:javafx-desc  width="800" height="600" main-class="MOEPfx"  name="MOEPfx" />
+  <update check="background"/>
+</jnlp>
